@@ -11,17 +11,17 @@ function App() {
     {
       person: 'Adele Goldberg',
       status: 'In Smalltalk, everything happens somewhere else.',
-      timestamp: Timestamp()
+      timestamp: {Timestamp()}
     },
     {
       person: 'Erica Baker',
       status: 'Every once in a while, life affords you the opportunity to have real, authentic, genuine happiness. It is up to you to see it. Pay attention.',
-      timestamp: Timestamp()
+      timestamp: {Timestamp()}
     },
     {
       person: 'Aubrey Tang',
       status: 'The art of computer programming is a blend of mathematics and poetry.',
-      timeStamp: Timestamp()
+      timeStamp: {Timestamp()}
     }
   ];
   // Customize the code below
@@ -31,7 +31,6 @@ function App() {
         <h1 className="App-title">Application title</h1>
       </header>
       <main className="App-main">
-          <Timeline timeline={timelineEventInfo} />
       </main>
     </div>
   );
