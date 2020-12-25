@@ -2,10 +2,15 @@ import React from 'react';
 import './TimelineEvent.css';
 import Timestamp from './Timestamp';
 
-const TimelineEvent = () => {
-  
-  return;
-}
+const TimelineEvent = (props) => {
+  return (
+    <div>
+      <h4>{props.TimelineEvent.person}</h4>
+      <h4>{props.TimelineEvent.status}</h4>
+      {Timestamp()}
+    </div>
+  );
+};
 
 export default TimelineEvent;
 
