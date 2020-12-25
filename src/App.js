@@ -10,18 +10,15 @@ function App() {
   const timelineEventInfo = [
     {
       person: 'Adele Goldberg',
-      status: 'In Smalltalk, everything happens somewhere else.',
-      timestamp: {Timestamp()}
+      status: 'In Smalltalk, everything happens somewhere else.'
     },
     {
       person: 'Erica Baker',
-      status: 'Every once in a while, life affords you the opportunity to have real, authentic, genuine happiness. It is up to you to see it. Pay attention.',
-      timestamp: {Timestamp()}
+      status: 'Every once in a while, life affords you the opportunity to have real, authentic, genuine happiness. It is up to you to see it. Pay attention.'
     },
     {
       person: 'Aubrey Tang',
-      status: 'The art of computer programming is a blend of mathematics and poetry.',
-      timeStamp: {Timestamp()}
+      status: 'The art of computer programming is a blend of mathematics and poetry.'
     }
   ];
   // Customize the code below
