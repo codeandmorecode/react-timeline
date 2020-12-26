@@ -7,26 +7,6 @@ import Timestamp from './components/Timestamp';
 
 function App() {
   console.log(timelineData);
-  const timelineEventInfo = [
-    {
-      person: 'Adele Goldberg',
-      status: 'In Smalltalk, everything happens somewhere else.'
-      // ,
-      // timestamp: {Timestamp()}
-    },
-    {
-      person: 'Erica Baker',
-      status: 'Every once in a while, life affords you the opportunity to have real, authentic, genuine happiness. It is up to you to see it. Pay attention.'
-      // ,
-      // timestamp: {Timestamp()}
-    },
-    {
-      person: 'Aubrey Tang',
-      status: 'The art of computer programming is a blend of mathematics and poetry.'
-      // ,
-      // timeStamp: {Timestamp()}
-    }
-  ];
   // Customize the code below
   return (
     <div className="App">
